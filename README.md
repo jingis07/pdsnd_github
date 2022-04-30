@@ -10,7 +10,7 @@ Investigating bikeshare data
 
 ### Description
 
-Describe what your project is about and what it does
+Analyzing bikeshare data across three states in the US: namely Chicago, New York and Washington. The project aims to answer interesting questions about it by computing descriptive statistics. I used python for the analysis
 
 ### Files used
 
