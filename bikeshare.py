@@ -7,7 +7,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 
-def get_slicer():
+def get_slicers():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -220,7 +220,7 @@ def display_data(df):
 
 def main():
     while True:
-        city, month, day = get_slicer()
+        city, month, day = get_slicers()
         df = load_data(city, month, day)
 
         time_stats(df, month, day)
