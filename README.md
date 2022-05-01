@@ -14,7 +14,9 @@ Analyzing bikeshare data across three states in the US: namely Chicago, New York
 
 ### Files used
 
-Chicago.csv , New_york_city.csv , Washington.csv
+Chicago.csv 35.6MB
+New_york_city.csv 33.6MB
+Washington.csv 34.4MB
 
 ### Credits
 
