@@ -86,11 +86,7 @@ def time_stats(df, month, day):
     start_time = time.time()
 
     # display the most common month
-    if month == 'None':
-        pop_month = df['month'].mode()[0]
-        months = ['January', 'February', 'March', 'April', 'May', 'June']
-        pop_month = months[pop_month-1]
-        print("The most Popular month is", pop_month)
+    mcm(df, month)
 
     # display the most common day of week
     if day == 'None':
@@ -104,6 +100,14 @@ def time_stats(df, month, day):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+
+def mcm(df, month):
+    if month == 'None':
+        pop_month = df['month'].mode()[0]
+        months = ['January', 'February', 'March', 'April', 'May', 'June']
+        pop_month = months[pop_month-1]
+        print("The most Popular month is", pop_month)
 
 
 def station_stats(df):
